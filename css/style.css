@@ -1,0 +1,27 @@
+header > div > nav > a {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+header > div > nav > a:hover {
+    opacity: 1.0; 
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 0.90rem;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.header {
+    max-width: 700px;
+}
+    
+.card-header {
+    height: 54px;
+}
